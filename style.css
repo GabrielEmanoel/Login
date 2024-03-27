@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	color:#03a1fc;
+	background-color:#000;
+	justify-content: center;
+	background-size: cover;
+}
+
+.conteiner {
+	width: 310px;
+	height: 450px;
+	padding: 35px 35px;
+	border-radius: 20px;
+	background-color:#fff;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.title {
+	text-align: center;
+	font-size: 28px;
+	color:#555;
+	margin: 35px;
+}
+
+.credenciais {
+	width: 100%;
+	padding: 2px 5px 0px 5px;
+}
+
+.credenciais input {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	color:#555;
+	padding: 20px 10px 20px 5px;
+	letter-spacing: 1px;
+}
+
+.username {
+	margin-bottom: 30px;
+	border-bottom: 2px solid #c2c4c3;
+	transition: 0.5s ease;
+}
+
+.username:hover {
+	border-bottom: 3px solid #03a1fc;
+}
+
+.password {
+	margin-bottom: 30px;
+	border-bottom: 2px solid #c2c4c3;
+	transition: 0.5s ease;
+}
+
+.password:hover {
+	border-bottom: 3px solid #03a1fc;
+}
+
+.submit {
+	border: none;
+	width: 100%;
+	height: 60px;
+	border-radius: 30px;
+	color:#fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	background: linear-gradient(to right, #56c1ff, #28adfa, #03a1fe);
+	background-size: 200%;
+	transition: 0.5s;
+}
+
+.submit:hover {
+	background-position: right;
+}
+
+.link {
+	margin: 30px;
+	text-align: center;
+}
+
+.link a {
+	color:#aaa;
+	text-decoration: none;
+}
